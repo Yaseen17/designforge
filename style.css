@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body
+{
+    display: grid;
+    grid: 7vh 100vh 30vh / 35vw 65vw;
+    grid-template-areas: "nav nav"
+                         "main main"
+                         "footer footer";
+                         
+}
+
+header{
+    background-color: darksalmon
+}
+
+
+section
+{
+    background-color:white;
+    grid-area: main;
+}
+
+footer
+{
+    background-color: cornsilk;
+    border: 1px solid black;
+    grid-area: footer;
+}
