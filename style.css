@@ -19,7 +19,7 @@ body
 
 .header{
     grid-column: span 3;
-    background-color: rgb(102, 60, 4);
+    background-color: gray;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     /* grid-template-rows: 60px; */
@@ -64,6 +64,7 @@ width: 30%;
     border: 2rem ;
     padding: 1rem;
     white-space: nowrap;
+    font-family: 'Phudu', cursive;
 }
 
 .menu_ul > li > .menu_li_whatsapp{
